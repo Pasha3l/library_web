@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .content {
+            width: 200px;
+            background-color: aquamarine;
+            border: 2px solid blue;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+    <head>
+        <body>
+            <div class="container">
+                <div class="content" style="order: 2">
+                    <h1>Ini Konten 1</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, veritatis ratione illum nulla natus eum commodi molestiae! Dignissimos ex vel, sint mollitia neque, error quibusdam ipsam eos architecto pariatur facilis!</p>
+                </div>
+                <div class="content" style="order: 1">
+                    <h1>Ini Konten 2</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam facilis non vel, qui modi est aliquam labore magnam. Consequatur quas, itaque esse distinctio temporibus ipsam sapiente pariatur autem incidunt illum?</p>
+                </div>
+                <div class="content" style="order: 4">
+                    <h1>Ini Konten 3</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, facere facilis vel quam officia assumenda neque porro officiis libero quisquam minus repellat reiciendis sit nisi accusamus nostrum aut, non error!</p>
+                </div>
+                <div class="content" style="order: 3">
+                    <h1>Ini Konten 4</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati expedita ex sunt cumque ea est eveniet suscipit! Reiciendis animi ad dolores. Quos commodi rem ut quia dolorem quis inventore.</p>
+                </div>
+            </div>
+        </body>
+    </head>

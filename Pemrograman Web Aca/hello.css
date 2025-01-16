@@ -1,0 +1,16 @@
+h1{
+    #judul {
+        color: aquamarine;
+        font-size: 30px;
+    }
+    color: red;
+    font-size: 20px;
+}
+h2{
+    color: blueviolet;
+    font-size: 15px;
+}
+h3{
+    color: brown;
+    font-size: 40px;
+}
